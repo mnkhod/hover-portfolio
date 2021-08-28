@@ -30,7 +30,6 @@ button:hover{
     header{
         height: 10vh;
         display: flex;
-        /* position: sticky; */
         top: 0;
     }
 
@@ -55,7 +54,7 @@ button:hover{
     }
 
     nav ul li{
-        margin-left: 20px;
+        margin-left: 50px;
         animation: pulse; 
         animation-duration: 5s;
         animation-iteration-count: infinite;
