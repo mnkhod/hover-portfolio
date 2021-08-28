@@ -322,7 +322,7 @@ button:hover{
 /* FEEDBACK */
 
 #feedback .mainContainer{
-    margin: 35px 0;
+    margin: 150px 0;
     background-color: var(--text-dark-color);
     display: flex;
     padding: 30px;
@@ -373,3 +373,36 @@ button:hover{
 }
 
 /* FEEDBACK END */
+
+/* AD */
+#ad .mainContainer{
+    margin: 250px 0;
+    background-color: white;
+    border: solid black 1px;
+    display: flex;
+    padding: 50px 40px;
+}
+
+#ad .mainContainer .leftSide{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ad .mainContainer .leftSide h1{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#ad .mainContainer .rightSide{
+    flex-basis: 50%;
+}
+
+#ad .mainContainer .rightSide p{
+    font-weight: 150;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+/* AD END */
