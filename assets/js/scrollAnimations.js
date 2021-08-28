@@ -37,11 +37,6 @@ ScrollReveal().reveal('#features .rightSide',{
     distance: "250px",
 })
 
-ScrollReveal().reveal('#bannerHeader',{
-    origin: "top",
-    distance: "150px",
-})
-
 ScrollReveal().reveal('#products .mainContainer .title,#products .mainContainer .desc',{
     origin: "right",
     distance: "150px",
@@ -51,8 +46,6 @@ ScrollReveal().reveal('#products .product',{
     origin: "bottom",
     distance: "150px",
 })
-
-
 
 
 ScrollReveal().reveal('#feedback .mainContainer',{
