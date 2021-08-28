@@ -43,6 +43,9 @@ button:hover{
     nav img{
         width: 150px;
         height: auto;
+        animation: pulse; 
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
     }
 
     nav ul{
@@ -53,6 +56,9 @@ button:hover{
 
     nav ul li{
         margin-left: 20px;
+        animation: pulse; 
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
     }
 
     nav ul a{
@@ -142,11 +148,18 @@ button:hover{
 
 #main .rightSide svg{
     width: 25vw;
+    animation: pulse; 
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 #main button{
     font-size: 12px;
     letter-spacing: 5px;
+}
+
+#main {
+    margin-bottom: 80px;
 }
 
 /* MAIN SECTION END */
@@ -179,14 +192,17 @@ button:hover{
     border-left: solid black 2px;
     border-right: solid black 2px;
 }
+
 /* BANNER HEADER END */
 
 
 /* FEATURES */
 
+
 #features .mainContainer{
     display: flex;
     margin: 25px 0;
+    margin-bottom: 150px;
 }
 
 
@@ -241,7 +257,7 @@ button:hover{
 
 /* PRODUCTS */
 #products .mainContainer{
-    margin-bottom: 20px;
+    margin-bottom: 150px;
 }
 
 #products .mainContainer h1{
