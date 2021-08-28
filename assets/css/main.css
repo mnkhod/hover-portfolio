@@ -394,7 +394,7 @@ button:hover{
 #ad .mainContainer{
     margin: 250px 0;
     background-color: white;
-    border: solid black 1px;
+    border: solid black 5px;
     display: flex;
     padding: 50px 40px;
 }
