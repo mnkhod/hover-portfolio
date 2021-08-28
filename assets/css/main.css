@@ -152,3 +152,76 @@ main{
     z-index: -100;
 }
 /* PARTICLE END */
+
+
+/* FEATURES */
+
+#features .header{
+    border-bottom: solid black 2px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+#features .header p{
+    background-color: white;
+    padding: 5px 15px;
+    font-size: 15px;
+    border-top: solid black 2px;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+}
+
+#features .mainContainer{
+    display: flex;
+    margin: 50px 0;
+}
+
+
+#features .mainContainer .leftSide{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+
+#features .mainContainer .leftSide svg{
+    width: 450px;
+}
+
+#features .mainContainer .rightSide{
+    width: 55%;
+}
+
+#features .mainContainer .rightSide{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#features .mainContainer .rightSide .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 43%;
+    padding: 25px;
+}
+
+
+#features .mainContainer .rightSide .card i{
+    font-size: 35px;
+}
+
+#features .mainContainer .rightSide .card h1{
+    font-size: 20px;
+    letter-spacing: 10px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+#features .mainContainer .rightSide .card p{
+    font-weight: 200;
+    font-size: 14px;
+}
+
+/* FEATURES END */
