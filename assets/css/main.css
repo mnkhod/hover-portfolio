@@ -317,6 +317,59 @@ button:hover{
     padding: 12px 40px;  
 }
 
-
-
 /* PRODUCTS END */
+
+/* FEEDBACK */
+
+#feedback .mainContainer{
+    margin: 35px 0;
+    background-color: var(--text-dark-color);
+    display: flex;
+    padding: 30px;
+}
+
+#feedback .mainContainer .leftSide{
+    color: white;
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#feedback .mainContainer .leftSide img{
+    width: 100px;
+    height: 90px;
+    border: solid 2px white;
+    border-radius: 100%; 
+}
+
+#feedback .mainContainer .leftSide h2{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 9px;
+    margin: 12px 0;
+}
+
+#feedback .mainContainer .leftSide p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 4px;
+}
+
+#feedback .mainContainer .rightSide{
+    flex-basis: 80%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#feedback .mainContainer .rightSide p{
+    letter-spacing: 2px;
+    line-height: 2;
+    text-align: center;
+}
+
+/* FEEDBACK END */
