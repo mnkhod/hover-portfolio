@@ -2,12 +2,35 @@ main{
     margin: 0 15%;
 }
 
+/* BUTTON */
+
+button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background-color: var(--text-dark-color);
+    color: white;
+    border: none;
+    padding: 14px 28px;  
+    font-size: 12px;
+    letter-spacing: 10px;
+    box-shadow: -5px 5px var(--button-shadow);
+    transition: box-shadow 0.2s;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover{
+    box-shadow: -9px 9px var(--button-shadow);
+}
+
+/* BUTTON END */
+
 /* HEADER */
 
     header{
         height: 10vh;
         display: flex;
-        position: sticky;
+        /* position: sticky; */
         top: 0;
     }
 
@@ -122,23 +145,9 @@ main{
 }
 
 #main button{
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    background-color: var(--text-dark-color);
-    color: white;
-    border: none;
-    padding: 14px 28px;  
-    font-size: 19px;
-    letter-spacing: 1px;
-    box-shadow: -5px 5px var(--button-shadow);
-    transition: box-shadow 0.2s;
-    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 5px;
 }
-
-#main button:hover{
-    box-shadow: -9px 9px var(--button-shadow);
-}
-
 
 /* MAIN SECTION END */
 
@@ -154,16 +163,15 @@ main{
 /* PARTICLE END */
 
 
-/* FEATURES */
-
-#features .header{
+/* BANNER HEADER */
+#bannerHeader{
     border-bottom: solid black 2px;
     display: flex;
     width: 100%;
     justify-content: flex-start;
 }
 
-#features .header p{
+#bannerHeader p{
     background-color: white;
     padding: 5px 15px;
     font-size: 15px;
@@ -171,10 +179,14 @@ main{
     border-left: solid black 2px;
     border-right: solid black 2px;
 }
+/* BANNER HEADER END */
+
+
+/* FEATURES */
 
 #features .mainContainer{
     display: flex;
-    margin: 50px 0;
+    margin: 25px 0;
 }
 
 
@@ -225,3 +237,86 @@ main{
 }
 
 /* FEATURES END */
+
+
+/* PRODUCTS */
+#products .mainContainer{
+    margin-bottom: 20px;
+}
+
+#products .mainContainer h1{
+    margin: 30px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#products .mainContainer p{
+    font-weight: lighter;
+    font-size: 15px;
+    width: 60%;
+    letter-spacing: 2px;
+}
+
+#products .mainContainer .productsContainer{
+    margin-top: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#products .mainContainer .product{
+    flex-basis: 25%;
+    margin-bottom: 80px;
+}
+
+#products .mainContainer .product p{
+    font-size: 15px;
+    padding: 5px 15px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: inline;
+}
+
+#products .mainContainer .product .productTitleContainer{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+    
+
+#products .mainContainer .product h2{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#products .mainContainer .product .productImageContainer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+}
+
+
+#products .mainContainer .product img{
+    width: 300px;
+    margin: 0 auto;
+}
+
+#products .mainContainer .product h5{
+    font-weight: lighter;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: 15px 0;
+}
+
+#products .mainContainer .product button{
+    padding: 12px 40px;  
+}
+
+
+
+/* PRODUCTS END */
