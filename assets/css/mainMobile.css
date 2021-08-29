@@ -1,0 +1,203 @@
+@media only screen and (max-width: 420px) {
+    body{
+        overflow-x: hidden;
+    }
+
+    nav ul{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+    }
+
+    #scrollAnimation{
+        display: none;
+    }
+
+    main{
+        margin: 0;
+        padding: 0 5%;
+    }
+
+    #particle-mobile-container{
+        display: block;
+    }
+
+    #particle-container{
+        display: none;
+    }
+
+
+    #main{
+        flex-direction: column-reverse;
+        height: 100%;
+        margin: 80px 0;
+    }
+
+    #main .leftSide,#main .rightSide{
+        flex-basis: 100%;
+    }
+
+    #main .leftSide{
+        padding: 0;
+    }
+
+
+    #main .leftSide .header p{
+        font-size: 23px;
+    }
+
+    #main .leftSide .header{
+        display: block;
+        margin: 0;
+        margin-bottom: 19%;
+    }
+
+    #main .leftSide .header ul{
+        margin: 0 auto;
+        margin-top: 5%;
+        width: 50%;
+        justify-content: space-around;
+    }
+
+    #main .leftSide h1{
+        font-size: 18px;
+        text-align: center;
+        margin: 12px 0;
+    }
+
+    #main .leftSide p{
+        margin: 5% 0;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #main .leftSide button{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    #main .leftSide .header li{
+        margin-left: 0px;
+    }
+
+    #main .leftSide .header li i{
+        font-size: 28px;
+    }
+
+    #main .rightSide{
+        margin-bottom: 30px;
+    }
+
+    #main .rightSide svg{
+        width: 150px;
+        height: auto;
+    }
+
+    #main .leftSide{
+        margin-bottom: 30%;
+    }
+
+
+    #features{
+        height: 100%;
+        margin-bottom: 50%;
+    }
+
+    #features .mainContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #features .mainContainer .leftSide{
+        margin-top: 25%;
+        width: 100%;
+    }
+
+    #features .mainContainer .leftSide svg{
+        width: 200px;
+        height: auto;
+    }
+
+    #features .mainContainer .rightSide .card{
+        width: 100%;     
+        padding: 0;
+        margin: 70px 0;
+        text-align: center;
+    }
+
+    #products .mainContainer h1,
+    #products .mainContainer .product,
+    #products .mainContainer p{
+        text-align: center;
+        width: 100%;
+        flex-basis: auto;
+    }
+
+    #products .mainContainer .product .productTitleContainer{
+        display: block;
+        height: auto;
+    }
+
+    #products .mainContainer .product p{
+        display: block;
+        padding-right: 0;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    #products .mainContainer .product h2{
+        text-align: center;
+    }
+
+    #products .mainContainer .product button{
+        width: 90%;
+    }
+
+
+    #feedback .mainContainer{
+        flex-direction: column;
+        padding: 40px 30px;
+    }
+
+    #feedback .mainContainer .rightSide{
+        margin-top: 12%;
+    }
+
+    #feedback .mainContainer .rightSide p{
+        font-size: 14px;
+    }
+
+
+
+    #ad .mainContainer{
+        flex-direction: column;
+    }
+
+    #ad .mainContainer .leftSide h1{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 15%;
+    }
+
+    #ad .mainContainer .rightSide{
+        flex-basis: auto;
+    }
+
+
+    #ad .mainContainer .rightSide p{
+        text-align: center;
+    }
+
+    #ad .mainContainer .rightSide button{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #bannerHeader{
+        justify-content: center;
+    }
+
+
+}
