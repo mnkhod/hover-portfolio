@@ -90,24 +90,17 @@
 
 
     #features{
-        height: 100%;
-        margin-bottom: 100%;
+        margin: 5% 0;
     }
 
     #features .mainContainer{
         flex-direction: column;
         align-items: center;
-        margin-bottom: 10%;
     }
 
     #features .mainContainer .leftSide{
         margin: 10% 0;
         width: 100%;
-    }
-
-    #features .mainContainer .leftSide svg{
-        width: 200px;
-        height: 200px;
     }
 
     #features .mainContainer .rightSide .card{
@@ -132,7 +125,10 @@
     }
 
     #products .mainContainer{
-        margin-bottom: 100%;
+    }
+
+    #products{
+        height: auto;
     }
 
     #products .mainContainer .product p{

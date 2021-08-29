@@ -188,7 +188,6 @@ button:hover{
 
 /* FEATURES */
 #features{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,11 +196,12 @@ button:hover{
 
 #features .mainContainer{
     display: flex;
+    margin: 5% 0;
 }
 
 
 #features .mainContainer .leftSide{
-    width: 45%;
+    width: 50%;
     display: flex;
     justify-content: center;
 }
@@ -211,7 +211,7 @@ button:hover{
 }
 
 #features .mainContainer .rightSide{
-    width: 55%;
+    width: 50%;
 }
 
 #features .mainContainer .rightSide{
@@ -225,8 +225,8 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 43%;
-    padding: 25px;
+    width: 13vw;
+    padding: 20px;
 }
 
 

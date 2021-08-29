@@ -1,0 +1,40 @@
+@media only screen and (max-width: 1450px) {
+    #features .mainContainer{
+        flex-direction: column;
+    }
+
+    #features{
+        height: auto;
+    }
+
+    #features .mainContainer .leftSide{
+        align-items: center;
+        width: 100%;
+    }
+
+    #features .mainContainer .rightSide{
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+    #features .mainContainer .leftSide{
+        align-items: center;
+        justify-content: center;
+    }
+
+    #features .mainContainer .leftSide svg{
+        margin: 5% 0;
+        width: 30vw;
+        min-width: 250px;
+        height: auto;
+    }
+    #features .mainContainer .rightSide .card{
+        width: 20vw;
+        min-width: 250px;
+    }
+
+}
+
+@media only screen and (max-width: 845px) {
+
+}
