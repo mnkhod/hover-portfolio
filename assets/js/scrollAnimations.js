@@ -10,12 +10,12 @@ ScrollReveal().reveal('nav',{
 })
 
 ScrollReveal().reveal('#main .leftSide',{
-    origin: "left",
+    origin: "bottom",
     distance: "250px",
 })
 
 ScrollReveal().reveal('#main .rightSide',{
-    origin: "right",
+    origin: "bottom",
     distance: "250px",
 })
 
@@ -23,22 +23,22 @@ ScrollReveal().reveal('#main .rightSide',{
 
 
 ScrollReveal().reveal('#features .leftSide',{
-    origin: "left",
+    origin: "bottom",
     distance: "250px",
 })
 
 ScrollReveal().reveal('#features .leftSide',{
-    origin: "left",
+    origin: "bottom",
     distance: "250px",
 })
 
 ScrollReveal().reveal('#features .rightSide',{
-    origin: "right",
+    origin: "bottom",
     distance: "250px",
 })
 
 ScrollReveal().reveal('#products .mainContainer .title,#products .mainContainer .desc',{
-    origin: "right",
+    origin: "bottom",
     distance: "150px",
 })
 
@@ -49,14 +49,14 @@ ScrollReveal().reveal('#products .product',{
 
 
 ScrollReveal().reveal('#feedback .mainContainer',{
-    origin: "bottom",
+    origin: "top",
     duration: 1000,
     distance: "250px",
 })
 
 
 ScrollReveal().reveal('#ad .mainContainer',{
-    origin: "bottom",
+    origin: "top",
     duration: 1000,
     distance: "250px",
 })
