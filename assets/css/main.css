@@ -275,7 +275,7 @@ button:hover{
     margin-top: 55px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #products .mainContainer .product{
@@ -312,6 +312,7 @@ button:hover{
     justify-content: center;
     background-color: black;
     padding: 20px;
+    height: 200px;
 }
 
 
