@@ -1,67 +1,81 @@
-#team{
-    width: 100%;
-    
-}
-#team .headContainer img{
+#team {
     width: 100%;
 }
-.leftSide .teamContainer{
+
+#team .headContainer img {
+    width: 100%;
+}
+
+.leftSide .teamContainer {
     width: 20%;
 }
-#team .leftSide{
-    display: flex;
 
+#team .leftSide {
+    display: flex;
 }
-#team .leftSide h1{
+
+#team .leftSide h1 {
     font-size: 50px;
 }
-.teamContainer h1{
+
+.teamContainer h1 {
     text-align: center;
     font-size: 36px;
     margin-top: 30px;
 }
-.teamProfileRight{
+
+.teamProfileRight {
     width: 100%;
     display: flex;
 }
-.teamProfile{
+
+.teamProfile {
     width: 20%;
     margin: 20px;
     margin-top: 5%;
 }
-.teamProfile h2{
+
+.teamProfile img {
+    animation: fadeIn;
+    animation-duration: 2s;
+}
+
+.teamProfile h2 {
     font-size: 26px;
     font-weight: bold;
 }
-.teamProfile h3{
+
+.teamProfile h3 {
     opacity: 0.7;
     font-size: 19px;
 }
-.teamProfile h2,h3{
+
+.teamProfile h2,
+h3 {
     text-align: center;
     margin: 5% 0;
 }
 
-.teamProfile img{
+.teamProfile img {
     filter: grayscale(100%);
     width: 100%;
-    
 }
+
 @media screen and (max-width:1200px) {
-    .teamProfileRight{
+    .teamProfileRight {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 30px;
     }
-    .teamProfile{
+    .teamProfile {
         width: 30%;
         text-align: center;
     }
-    .teamProfile h2{
+    .teamProfile h2 {
         font-size: 16px;
     }
-    .teamProfile h3{
+    .teamProfile h3 {
         font-size: 16px;
     }
 }
