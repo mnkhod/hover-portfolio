@@ -1,17 +1,17 @@
-main{
+main {
     margin: 0 15%;
 }
 
 
 /* BUTTON */
 
-button{
+button {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     background-color: var(--text-dark-color);
     color: white;
     border: none;
-    padding: 14px 28px;  
+    padding: 14px 28px;
     font-size: 12px;
     letter-spacing: 10px;
     box-shadow: -5px 5px var(--button-shadow);
@@ -20,112 +20,117 @@ button{
     text-transform: uppercase;
 }
 
-button:hover{
+button:hover {
     box-shadow: -9px 9px var(--button-shadow);
 }
 
+
 /* BUTTON END */
+
 
 /* HEADER */
 
-    header{
-        height: 10vh;
-        display: flex;
-        top: 0;
-    }
+header {
+    height: 10vh;
+    display: flex;
+    top: 0;
+}
 
-    nav{
-        display: flex;
-        align-items: center;
-        flex-grow: 1;
-    }
+nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
 
-    nav img{
-        width: 150px;
-        height: auto;
-        animation: pulse; 
-        animation-duration: 2s;
-        animation-iteration-count: infinite;
-    }
+nav img {
+    width: 150px;
+    height: auto;
+    animation: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 
-    nav ul{
-        flex-grow: 1;
-        display: flex;
-        justify-content: flex-end;
-    }
+nav ul {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
 
-    nav ul li{
-        margin-left: 50px;
-        animation: pulse; 
-        animation-duration: 5s;
-        animation-iteration-count: infinite;
-    }
+nav ul li {
+    margin-left: 50px;
+    animation: pulse;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
 
-    nav ul a{
-        text-decoration: none;
-        color: var(--text-color);
-        transition: font-size 0.3s;
-    }
+nav ul a {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: font-size 0.3s;
+}
 
-    nav ul a:hover{
-        font-size: 20px;
-        font-weight: bold;
-        color: black;
-    }
+nav ul a:hover {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
 
 /* HEADER END */
 
+
 /* MAIN SECTION */
-#main{
-    margin-top:40px;
+
+#main {
+    margin-top: 40px;
     height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#main .leftSide{
+#main .leftSide {
     flex-basis: 50%;
     padding-right: 40px;
 }
 
-#main .rightSide{
+#main .rightSide {
     flex-basis: 40%;
 }
 
-#main .leftSide .header{
+#main .leftSide .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-#main .leftSide .header p{
+#main .leftSide .header p {
     color: var(--text-color);
     font-weight: bold;
     font-size: 18px;
     margin: 0;
 }
 
-#main .leftSide h1{
+#main .leftSide h1 {
     margin-top: 15px;
     margin-bottom: 25px;
     font-weight: bold;
     font-size: 35px;
 }
 
-#main .leftSide p{
+#main .leftSide p {
     margin: 20px 0;
 }
 
-#main .leftSide b{
+#main .leftSide b {
     font-weight: bold;
 }
 
-#main .leftSide .header ul{
+#main .leftSide .header ul {
     display: flex;
 }
 
-#main .leftSide .header li{
+#main .leftSide .header li {
     width: 35px;
     height: 35px;
     margin-left: 15px;
@@ -135,25 +140,25 @@ button:hover{
     cursor: pointer;
 }
 
-#main .leftSide .header li i{
+#main .leftSide .header li i {
     font-size: 18px;
     color: var(--text-dark-color);
 }
 
-#main .rightSide{
+#main .rightSide {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#main .rightSide svg{
+#main .rightSide svg {
     width: 25vw;
-    animation: pulse; 
+    animation: pulse;
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 
-#main button{
+#main button {
     font-size: 12px;
     letter-spacing: 5px;
 }
@@ -162,19 +167,20 @@ button:hover{
     margin-bottom: 80px;
 }
 
+
 /* MAIN SECTION END */
 
 
-
 /* BANNER HEADER */
-#bannerHeader{
+
+#bannerHeader {
     border-bottom: solid black 2px;
     display: flex;
     width: 100%;
     justify-content: flex-start;
 }
 
-#bannerHeader p{
+#bannerHeader p {
     background-color: white;
     padding: 5px 15px;
     font-size: 15px;
@@ -183,45 +189,46 @@ button:hover{
     border-right: solid black 2px;
 }
 
+
 /* BANNER HEADER END */
 
 
 /* FEATURES */
-#features{
+
+#features {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#features .mainContainer{
+#features .mainContainer {
     display: flex;
     margin: 5% 0;
 }
 
-
-#features .mainContainer .leftSide{
+#features .mainContainer .leftSide {
     width: 50%;
     display: flex;
     justify-content: center;
 }
 
-#features .mainContainer .leftSide svg{
+#features .mainContainer .leftSide svg {
     width: 450px;
 }
 
-#features .mainContainer .rightSide{
+#features .mainContainer .rightSide {
     width: 50%;
 }
 
-#features .mainContainer .rightSide{
+#features .mainContainer .rightSide {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-#features .mainContainer .rightSide .card{
+#features .mainContainer .rightSide .card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -229,28 +236,29 @@ button:hover{
     padding: 20px;
 }
 
-
-#features .mainContainer .rightSide .card i{
+#features .mainContainer .rightSide .card i {
     font-size: 35px;
 }
 
-#features .mainContainer .rightSide .card h1{
+#features .mainContainer .rightSide .card h1 {
     font-size: 20px;
     letter-spacing: 10px;
     font-weight: bold;
     padding: 20px 0;
 }
 
-#features .mainContainer .rightSide .card p{
+#features .mainContainer .rightSide .card p {
     font-weight: 200;
     font-size: 14px;
 }
+
 
 /* FEATURES END */
 
 
 /* PRODUCTS */
-#products{
+
+#products {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -258,32 +266,32 @@ button:hover{
     align-items: center;
 }
 
-#products .mainContainer h1{
+#products .mainContainer h1 {
     margin: 30px 0;
     font-size: 30px;
     font-weight: bold;
 }
 
-#products .mainContainer p{
+#products .mainContainer p {
     font-weight: lighter;
     font-size: 15px;
     width: 60%;
     letter-spacing: 2px;
 }
 
-#products .mainContainer .productsContainer{
+#products .mainContainer .productsContainer {
     margin-top: 55px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-#products .mainContainer .product{
+#products .mainContainer .product {
     flex-basis: 25%;
     margin-bottom: 80px;
 }
 
-#products .mainContainer .product p{
+#products .mainContainer .product p {
     font-size: 15px;
     padding: 5px 15px;
     font-weight: 400;
@@ -294,47 +302,48 @@ button:hover{
     display: inline;
 }
 
-#products .mainContainer .product .productTitleContainer{
+#products .mainContainer .product .productTitleContainer {
     height: 8vh;
     display: flex;
     align-items: center;
 }
-    
 
-#products .mainContainer .product h2{
+#products .mainContainer .product h2 {
     font-size: 24px;
     font-weight: bold;
     margin: 20px 0;
 }
 
-#products .mainContainer .product .productImageContainer{
+#products .mainContainer .product .productImageContainer {
     display: flex;
     justify-content: center;
     background-color: black;
     padding: 20px;
 }
 
-
-#products .mainContainer .product img{
+#products .mainContainer .product img {
     width: 300px;
     margin: 0 auto;
 }
 
-#products .mainContainer .product h5{
+#products .mainContainer .product h5 {
     font-weight: lighter;
     font-size: 15px;
     letter-spacing: 2px;
     margin: 15px 0;
 }
 
-#products .mainContainer .product button{
-    padding: 12px 40px;  
+#products .mainContainer .product button {
+    padding: 12px 40px;
 }
+
 
 /* PRODUCTS END */
 
+
 /* FEEDBACK */
-#feedback{
+
+#feedback {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -342,13 +351,15 @@ button:hover{
     align-items: center;
 }
 
-#feedback .mainContainer{
+#feedback .mainContainer {
     background-color: var(--text-dark-color);
     display: flex;
     padding: 30px;
+    width: 95.5%;
+    margin-top: 1%;
 }
 
-#feedback .mainContainer .leftSide{
+#feedback .mainContainer .leftSide {
     color: white;
     flex-basis: 20%;
     display: flex;
@@ -357,28 +368,28 @@ button:hover{
     align-items: center;
 }
 
-#feedback .mainContainer .leftSide img{
+#feedback .mainContainer .leftSide img {
     width: 100px;
     height: 90px;
     border: solid 2px white;
-    border-radius: 100%; 
+    border-radius: 100%;
 }
 
-#feedback .mainContainer .leftSide h2{
+#feedback .mainContainer .leftSide h2 {
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 9px;
     margin: 12px 0;
 }
 
-#feedback .mainContainer .leftSide p{
+#feedback .mainContainer .leftSide p {
     text-align: center;
     font-size: 14px;
     font-weight: 200;
     letter-spacing: 4px;
 }
 
-#feedback .mainContainer .rightSide{
+#feedback .mainContainer .rightSide {
     flex-basis: 80%;
     color: white;
     display: flex;
@@ -386,16 +397,19 @@ button:hover{
     justify-content: center;
 }
 
-#feedback .mainContainer .rightSide p{
+#feedback .mainContainer .rightSide p {
     letter-spacing: 2px;
     line-height: 2;
     text-align: center;
 }
 
+
 /* FEEDBACK END */
 
+
 /* AD */
-#ad{
+
+#ad {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -403,55 +417,59 @@ button:hover{
     align-items: center;
 }
 
-#ad .mainContainer{
+#ad .mainContainer {
     background-color: white;
     border: solid black 5px;
     display: flex;
     padding: 50px 40px;
 }
 
-#ad .mainContainer .leftSide{
+#ad .mainContainer .leftSide {
     flex-basis: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#ad .mainContainer .leftSide h1{
+#ad .mainContainer .leftSide h1 {
     font-weight: bold;
     font-size: 35px;
 }
 
-#ad .mainContainer .rightSide{
+#ad .mainContainer .rightSide {
     flex-basis: 50%;
 }
 
-#ad .mainContainer .rightSide p{
+#ad .mainContainer .rightSide p {
     font-weight: 150;
     font-size: 14px;
     margin-bottom: 30px;
 }
 
+
 /* AD END */
 
+
 /* PARTICLE */
-#particle-container{
+
+#particle-container {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     height: 100vh;
     width: 100%;
     z-index: -100;
 }
 
-#particle-mobile-container{
+#particle-mobile-container {
     display: none;
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     height: 100vh;
     width: 100%;
     z-index: -100;
 }
+
 
 /* PARTICLE END */
