@@ -283,7 +283,7 @@ nav ul a:hover {
     margin-top: 55px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #products .mainContainer .product {
@@ -319,6 +319,7 @@ nav ul a:hover {
     justify-content: center;
     background-color: black;
     padding: 20px;
+    height: 200px;
 }
 
 #products .mainContainer .product img {
