@@ -295,7 +295,7 @@ button:hover{
 }
 
 #products .mainContainer .product .productTitleContainer{
-    height: 8vh;
+    height: 90px;
     display: flex;
     align-items: center;
 }
@@ -304,14 +304,11 @@ button:hover{
 #products .mainContainer .product h2{
     font-size: 24px;
     font-weight: bold;
-    margin: 20px 0;
 }
 
 #products .mainContainer .product .productImageContainer{
     display: flex;
     justify-content: center;
-    background-color: black;
-    padding: 20px;
     height: 200px;
 }
 
@@ -326,6 +323,7 @@ button:hover{
     font-size: 15px;
     letter-spacing: 2px;
     margin: 15px 0;
+    height: 120px;
 }
 
 #products .mainContainer .product button{
